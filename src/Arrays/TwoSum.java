@@ -1,6 +1,8 @@
+package Arrays;
+
 import java.util.HashSet;
 
-public class ContainsDuplicate {
+public class TwoSum {
     public static void main(String[] args) {
         System.out.println(containsDuplicate(new int[]{2, 7, 11, 15}));
     }
@@ -11,6 +13,4 @@ public class ContainsDuplicate {
         }
         return nums.length != set.size();
     }
-
 }
-
